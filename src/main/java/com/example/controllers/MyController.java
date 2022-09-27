@@ -14,5 +14,8 @@ public class MyController {
     @GetMapping("page2")
     public String index2(){return "index2";}
 
+    @GetMapping("page3")
+    public String index3(){return "index3";}
+
 
 }
